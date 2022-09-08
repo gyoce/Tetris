@@ -1,6 +1,6 @@
 # Tetris in C with SDL2
 
-![Tetris](https://github.com/gyoce/Tetris-SDL-C/blob/main/doc/Tetris.png)
+![Tetris](https://github.com/gyoce/Tetris-SDL-C/blob/master/doc/Tetris.png)
 
 ---
 ## How to play
