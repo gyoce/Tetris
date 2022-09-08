@@ -1,0 +1,13 @@
+Code :
+- refactoring général
+- Indentation à 2 espaces ?
+
+General :
+- Pouvoir choisir un mode de jeu avec l'ia ? Genre endless et vs
+	- Si endless on ajoute pas de lignes à l'adversaire
+
+Fix:
+- Bug lorsque l'ia est bientot dead best_pos vaut null dans ai::calculate_best_path
+
+UI : 
+- Des meilleurs images pour les boutons, l'UI etc...

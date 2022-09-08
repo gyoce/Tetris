@@ -1,0 +1,15 @@
+.vscode
+.vs/
+bin/
+include/
+lib/
+src/build/
+src/main
+**.obj
+**.log
+**.tlog
+**.recipe
+*.obj
+*.log
+*.tlog
+*.recipe
