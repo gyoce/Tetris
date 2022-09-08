@@ -13,3 +13,8 @@ src/main
 *.log
 *.tlog
 *.recipe
+Debug/
+*ncrunch*
+**.idb
+**.pdb
+*x64/*
