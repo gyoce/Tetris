@@ -1,5 +1,22 @@
 # Tetris in C with SDL2
 
+---
+## Game
+This is the famous Game created by Alekseï Pajitnov called Tetris. 
+
+In this game you have to move the pieces call "Tetrominoes" to make entire line. When a 
+line is full, all the pieces above goes down. The goal is of course to not fill the 
+entire board and survive as long as possible.
+
+I created an other game mode in which you play versus an AI. You can choose the difficulty
+of the AI but the main things that will change is the speed of the AI.
+
+The AI is capable of picking the best place for the actual piece and move it.
+
+Good luck ! :)
+
+PS : if you wanna know how the AI works it is just [below](#how-the-ai-works).
+
 ![Tetris](https://github.com/gyoce/Tetris-SDL-C/blob/master/doc/Tetris.png)
 
 ---
@@ -19,73 +36,18 @@ You can play with the keys :
 1. Execute with `./main` (Linux) or `main.exe` (Windows).
 
 ---
-## Code explanation
-### ai_scene
-The AI scene allow you to play with an AI. You can choose a difficulty. This difficulty
-change the speed of every movements of the ai.
+## How the AI works
+So the AI evaluate all the possibilities with its actual piece and give for each possibilites
+a score. Then it picks the best score and do the action for it.
 
-### ai
-It contains all the logic of the ai. The ai simulates every movements for the 
-actual tetromino and give a score foreach possibility. The best score is taken 
-and it will simulate the movements.  
-The best score is calculate with the number of holes that the tetromino will let,
-the average height of each square and if it will destroy lines.
+For example if you have a tetromino with a T-Shape, the ai compute all the possibilities left
+to right and for every rotation possible, (T-Shape got 4 rotations for example (trust me :) ).
 
-### board
-It contains all the logic for the tetris : generate tetromino, update tetromino,
-update score and level ...  
-When you press a key this will be process by this board and try the movements for
-the tetromino.
+For every rotation and position of the tetrominoe the AI is giving a score. The score is calculate
+with few parameters :
+1. If the tetromino will leave holes
+2. The average height of each cells of the tetromino
+3. If the tetromino will destroy lines
 
-### button
-It contains all the needs for a button in the game. A button is an area clickable
-and hoverable.  
-When it's clicked, it call a callback method which is defined in the creation 
-of the button.
-
-### global
-It contains all the textures needed in the game and some global variables like 
-pathes to files (sprite, font ...).  
-For exemple it contains the array of textures representing the squares of the 
-tetrominoes.
-
-## main
-The main file of the project. It create a tetris "object" and run the main function
-of it.
-
-### menu_scene
-The menu scene is the first scene of the game. You will have to choose between
-the **solo** and the **AI** scene with some buttons.  
-
-### print_color
-It contains just a function to print in the console with colors (Only use in 
-debug mode).
-
-### solo_scene
-The solo scene is the singleplayer game of Tetris. The objectiv of this game is
-to have the best score possible.
-
-### test
-It contains some functions to fill the map of the board to test (Only use in 
-debug mode).
-
-### tetris
-The tetris will initialize **window**, **font**, **sprites** and **scenes**.
-It is also the main loop of the game.  
-It contains the logic to pass from a scene
-to another.
-
-### tetromino
-It contains the logic to spawn a new tetromino and to correctly initialize
-one.  
-There are 7 types of tetrominoes possible (I, O, T, L, J, Z and S).
-
-### text
-It contains all the needs for drawing text in the window.  
-It also contains the needs to draw a "KeyText". It is a texture showing the key
-to press and a Text associate with it.
-
-### utils
-It contains some random utilities functions. Some are for debug only, others have
-real utility.
-
+Then after the AI calculate every score possible for every rotations and positions it picks the 
+best one and register some actions to achieve its goals and that's it !.
