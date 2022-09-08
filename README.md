@@ -37,13 +37,13 @@ You can play with the keys :
 
 ---
 ## How the AI works
-So the AI evaluate all the possibilities with its actual piece and give for each possibilites
-a score. Then it picks the best score and do the action for it.
+So the AI evaluates all the possibilities with its actual piece and give for each possibilities
+a score. Then it picks the best score and do the actions for it.
 
 For example if you have a tetromino with a T-Shape, the ai compute all the possibilities left
 to right and for every rotation possible, (T-Shape got 4 rotations for example (trust me :) ).
 
-For every rotation and position of the tetrominoe the AI is giving a score. The score is calculate
+For every rotations and positions of the tetromino the AI is giving a score. The score is calculate
 with few parameters :
 1. If the tetromino will leave holes
 2. The average height of each cells of the tetromino
