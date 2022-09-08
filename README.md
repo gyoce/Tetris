@@ -29,11 +29,18 @@ You can play with the keys :
 **Space** for instant drop of the piece.
 
 ---
-## How to compile the project
+## How to compile the project with Makefile
+0. You must have SDL2 lib installed
 1. Download or clone the projet with `git clone https://github.com/gyoce/Tetris-SDL-C.git`.
-1. Go to src with `cd tetris/src/`.
-1. Make with `make`.
-1. Execute with `./main` (Linux) or `main.exe` (Windows).
+2. Go to src with `cd tetris/src/`.
+3. Make with `make`.
+4. Execute with `./main` (Linux) or `main.exe` (Windows).
+
+---
+## How to compile the project with Visual studio
+1. Open the solution (Tetris.sln)
+2. Select x86
+3. Launch
 
 ---
 ## How the AI works
