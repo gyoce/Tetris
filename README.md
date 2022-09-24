@@ -1,7 +1,5 @@
 # Tetris in C with SDL2
 
----
-## Game
 This is the famous Game created by Alekseï Pajitnov called Tetris. 
 
 In this game you have to move the pieces called "Tetrominoes" to make entire line. When a 
