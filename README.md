@@ -4,7 +4,7 @@
 ## Game
 This is the famous Game created by Alekseï Pajitnov called Tetris. 
 
-In this game you have to move the pieces call "Tetrominoes" to make entire line. When a 
+In this game you have to move the pieces called "Tetrominoes" to make entire line. When a 
 line is full, all the pieces above goes down. The goal is of course to not fill the 
 entire board and survive as long as possible.
 
@@ -30,7 +30,7 @@ You can play with the keys :
 
 ---
 ## How to compile the project with Makefile
-0. You must have SDL2 lib installed
+0. You must have SDL2 lib installed 
 1. Download or clone the projet with `git clone https://github.com/gyoce/Tetris-SDL-C.git`.
 2. Go to src with `cd tetris/src/`.
 3. Make with `make`.
