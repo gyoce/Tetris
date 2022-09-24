@@ -1,8 +1,6 @@
 .vscode
 .vs/
 bin/
-include/
-lib/
 src/build/
 src/main
 **.obj
