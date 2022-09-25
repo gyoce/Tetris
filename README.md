@@ -30,7 +30,7 @@ You can play with the keys :
 ## How to compile the project with Makefile
 0. You must have SDL2 lib installed 
 1. Download or clone the projet with `git clone https://github.com/gyoce/Tetris-SDL-C.git`.
-2. Go to src with `cd tetris/src/`.
+2. Go to src with `cd Tetris-SDL-C/src/`.
 3. Make with `make`.
 4. Execute with `./main` (Linux) or `main.exe` (Windows).
 
