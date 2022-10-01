@@ -46,7 +46,7 @@ So the AI evaluates all the possibilities with its actual piece and give for eac
 a score. Then it picks the best score and do the actions for it.
 
 For example if you have a tetromino with a T-Shape, the ai compute all the possibilities left
-to right and for every rotation possible, (T-Shape got 4 rotations for example (trust me :) ).
+to right and for every rotation possible, (T-Shape got 4 rotations for example (trust me :D)).
 
 For every rotations and positions of the tetromino the AI is giving a score. The score is calculate
 with few parameters :
