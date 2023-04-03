@@ -17,7 +17,7 @@ Good luck ! :)
 
 PS : if you wanna know how the AI works it is just [below](#how-the-ai-works).
 
-![Tetris](https://github.com/gyoce/Tetris-SDL-C/imgs/Tetris.png)
+![Tetris](https://github.com/gyoce/Tetris/blob/main/imgs/Tetris.png)
 
 ---
 ## How to play
