@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{78f8c7f8-1060-470a-99d2-3e0393e6db04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\menu_scene.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\print_color.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solo_scene.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tetris.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\tetromino.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\board.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\button.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\global.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\test.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\text.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ai_scene.c">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ai.c">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\menu_scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\print_color.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solo_scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tetris.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\tetromino.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\board.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\button.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\global.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\test.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\text.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ai_scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ai.h">
+      <Filter>src</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\makefile">
+      <Filter>src</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\doc\stats.txt">
+      <Filter>src</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\imgs\font.bmp" />
+    <Image Include="..\imgs\icon.bmp" />
+    <Image Include="..\imgs\tetris.bmp" />
+  </ItemGroup>
+</Project>
